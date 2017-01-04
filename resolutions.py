@@ -182,7 +182,7 @@ def do_resolutions():
                 log.info('Sending to %s, with %s' % (row['Email'], templateID))
                 response = sp.transmissions.send(
                             recipients=[row['Email']],
-                            campaign='resolutions'
+                            campaign='resolutions',
                             template=templateID,
                             substitution_data={
                                 'name': row['Name'],
