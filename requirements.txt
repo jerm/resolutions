@@ -1,0 +1,8 @@
+pip>=9.0.0
+sparkpost
+google-api-python-client
+#csv
+PyOpenSSL
+oauth2client
+gspread
+
