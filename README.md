@@ -1,5 +1,8 @@
-# What
+# What is it?
 New Year resolutions app using Fgoogle forms and sheets for data entry/storage and Sparkpost for sending emails. 
+
+# Why did you do this?
+Fun? Demo of Sparkpost and google apps integration because I hadn't done that before. Also M asked me very nicely for help
 
 # Prerequisites
 pip > 8
