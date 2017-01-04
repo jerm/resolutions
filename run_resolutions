@@ -1,0 +1,9 @@
+#!/bin/bash
+# wrapper for setting up the env before running the thing
+
+source /usr/local/bin/virtualenvwrapper.sh
+workon resolutions
+cd ~/resolutions
+source .env
+./resolutions.py
+
