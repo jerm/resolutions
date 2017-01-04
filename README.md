@@ -1,10 +1,20 @@
 # What is it?
-New Year resolutions app using Fgoogle forms and sheets for data entry/storage and Sparkpost for sending emails. 
+New Year resolutions app using Google forms and sheets for data entry/storage and SparkPost for sending emails.
 
 # Why did you do this?
 Fun? Demo of Sparkpost and google apps integration because I hadn't done that before. Also M asked me very nicely for help
 
 # Prerequisites
+
+A google sheet with all of your data. We used a Google form to collect it, so
+it was a natural location to center our project data.
+
+Service account credentials file for that spreadsheet
+
+A SparkPost account, with your sending domain set up and verified, and your API
+key in-hand
+
+A google apps service account with access to your spreadsheets
 pip > 8
 ```
 pip install -U pip>=8.1.2
@@ -27,6 +37,5 @@ export SPARKPOST_API_KEY="xkred47mvemjsunpejot"
 export RES_CREDS_FILENAME='gapps_service_account_creds.json'
 ```
 
-Set up your google spreadsheets like:
 
 
