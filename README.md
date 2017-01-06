@@ -1,25 +1,24 @@
 # What is it?
 New Year resolutions app using Google forms and sheets for data entry/storage and SparkPost for sending emails.
 
+It periodically sends emails reminding people of their resolution and encouraging them to keep going.
+
 # Why did you do this?
-Fun? Demo of Sparkpost and google apps integration because I hadn't done that before. Also M asked me very nicely for help
+It was a fun project that [https://github.com/mary-grace](mary-grace) asked for help with. It was also a great way to learn, as I hadn't previously worked on a SparkPost & Google Apps integration.
 
 # Prerequisites
 
-A google sheet with all of your data. We used a Google form to collect it, so
-it was a natural location to center our project data.
+A Google Sheet with all of your data. We used a Google Gorm to collect it, so it was a natural location to center our project data.
 
-Service account credentials file for that spreadsheet
+A service account with access to the spreadsheet, and the credentials file for the account. (Easy information on how to set this up can be found [here](https://www.sparkpost.com/blog/google-apps-and-sparkpost-notification/), thanks to [colestrode](https://github.com/colestrode)
 
-A SparkPost account, with your sending domain set up and verified, and your API
-key in-hand
+A [SparkPost account](https://app.sparkpost.com/sign-up?src=Dev-Website&sfdcid=70160000000pqBb), with your sending domain set up and [verified](https://support.sparkpost.com/customer/en/portal/articles/1933360-verify-sending-domains), and an [API key](https://support.sparkpost.com/customer/portal/articles/1933377) with Transmission Read/Write permissions.
 
-A google apps service account with access to your spreadsheets
 pip > 8
 ```
 pip install -U pip>=8.1.2
 ```
-Not required, but recommended
+Not required, but recommended:
 ```
 pip install -U virtualenv mkvirtualenv
 ```
@@ -36,6 +35,3 @@ export RES_SPREADSHEET_ID="xxMYxxSHEETxxID"
 export SPARKPOST_API_KEY="xkred47mvemjsunpejot"
 export RES_CREDS_FILENAME='gapps_service_account_creds.json'
 ```
-
-
-
