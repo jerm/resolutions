@@ -28,7 +28,7 @@ pip install -U virtualenv mkvirtualenv
 * Clone this repo
 ```
 git clone
-
+```
 * Run the following:
 ```
 cd resolutions
