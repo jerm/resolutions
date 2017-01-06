@@ -8,13 +8,13 @@ It was a fun project that [https://github.com/mary-grace](mary-grace) asked for 
 
 # Prerequisites
 
-A Google Sheet with all of your data. We used a Google Gorm to collect it, so it was a natural location to center our project data.
+* A Google Sheet with all of your data. We used a Google Form to collect it, so it was a natural location to center our project data.
 
-A service account with access to the spreadsheet, and the credentials file for the account. (Easy information on how to set this up can be found [here](https://www.sparkpost.com/blog/google-apps-and-sparkpost-notification/), thanks to [colestrode](https://github.com/colestrode)
+* A service account with access to the spreadsheet, and the credentials file for the account. (Easy information on how to set this up can be found [here](https://www.sparkpost.com/blog/google-apps-and-sparkpost-notification/), thanks to [colestrode](https://github.com/colestrode))
 
-A [SparkPost account](https://app.sparkpost.com/sign-up?src=Dev-Website&sfdcid=70160000000pqBb), with your sending domain set up and [verified](https://support.sparkpost.com/customer/en/portal/articles/1933360-verify-sending-domains), and an [API key](https://support.sparkpost.com/customer/portal/articles/1933377) with Transmission Read/Write permissions.
+* A [SparkPost account](https://app.sparkpost.com/sign-up?src=Dev-Website&sfdcid=70160000000pqBb), with your sending domain [set up](https://support.sparkpost.com/customer/en/portal/articles/1933318-creating-sending-domains?_ga=1.8114224.367117918.1448915879) and [verified](https://support.sparkpost.com/customer/en/portal/articles/1933360-verify-sending-domains), and an [API key](https://support.sparkpost.com/customer/portal/articles/1933377) with Transmission Read/Write permissions.
 
-pip > 8
+* pip > 8
 ```
 pip install -U pip>=8.1.2
 ```
