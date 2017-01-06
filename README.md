@@ -4,7 +4,7 @@ New Year resolutions app using Google forms and sheets for data entry/storage an
 It periodically sends emails reminding people of their resolution and encouraging them to keep going.
 
 # Why did you do this?
-It was a fun project that [https://github.com/mary-grace](mary-grace) asked for help with. It was also a great way to learn, as I hadn't previously worked on a SparkPost & Google Apps integration.
+It was a fun project that [mary-grace](https://github.com/mary-grace) asked for help with. It was also a great way to learn, as I hadn't previously worked on a SparkPost & Google Apps integration.
 
 # Prerequisites
 
@@ -25,7 +25,11 @@ pip install -U virtualenv mkvirtualenv
 
 # Setup
 
-clone this repo
+* Clone this repo
+```
+git clone
+
+* Run the following:
 ```
 cd resolutions
 mkvirtualenv resolutions
@@ -35,3 +39,5 @@ export RES_SPREADSHEET_ID="xxMYxxSHEETxxID"
 export SPARKPOST_API_KEY="xkred47mvemjsunpejot"
 export RES_CREDS_FILENAME='gapps_service_account_creds.json'
 ```
+
+* [Read this blogpost](https://sparkpo.st/pk1ig) for more info about what, how, and why we did what we did.
